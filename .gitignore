@@ -179,3 +179,4 @@ CWE_VERSION
 
 stix2_objects/
 data/
+local_bundle_store/

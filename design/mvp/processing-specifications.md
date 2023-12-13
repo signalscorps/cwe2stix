@@ -21,13 +21,13 @@ cwe2stix checks the `Version` value on update, if the version has increased from
 The latest xml version of the CWE dictionary is stored in the file system in the format;
 
 ```shell
-$cve2stix/cwe_dictionaries/<XML_FILE>
+cwe2stix/cwe_dictionaries/<XML_FILE>
 ```
 
 e.g.
 
 ```shell
-$cve2stix/cwe_dictionaries/cwec_v4.11.xml
+cwe2stix/cwe_dictionaries/cwec_v4.11.xml
 ```
 
 On each update, the old xml file is purged and replaced with the new one.
